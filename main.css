@@ -1,68 +1,64 @@
-/* Nav bar styling */
-body
-{
-    font-family: Montserrat, sans-serif;
-    text-align: center; 
-    margin: 0 auto;
-    background-color: rgb(233, 233, 233);
-}
-h3{
-    color:black;
-    
-}
-.ourStory{
-    color: rgb(84, 84, 84);
-    text-align: center;
-    margin: 65px;
-    line-height: 1.6;
-}
-.ourChefs {
-    background-color: antiquewhite;
-    height: 100%;
-    padding: 30px;
-}
-.chefImgContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.chefImgs{
-    width: 5%;
-    height: 5%;
-    margin: 15px;
-}
-.title {
-    color: red;
-}
-.ourStory img {
-    float: right;
-    margin: 10px;
-}
- 
-/* Nav bar styling end */
-
 /* Nav Bar and background */
 .navBar {
-    background-image: url('/images/slider-image3.jpg');
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    justify-content: space-around;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    color: white;
-    padding: 5px;
-    width: 100% auto;
-    height: 750px
+  background-image: url("/images/slider-image3.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-around;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  width: 100% auto;
+  height: 750px;
 }
-a 
-{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-a:hover 
-{
-    transition: all 300ms ease-in;
-    color: red;
+a:hover {
+  transition: all 300ms ease-in;
+  color: red;
 }
 /* Nav Bar and background end */
+
+/* Nav bar styling */
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(233, 233, 233);
+}
+h3 {
+  color: black;
+}
+.ourStory {
+  color: rgb(84, 84, 84);
+  text-align: center;
+  margin: 65px;
+  line-height: 1.6;
+}
+.ourChefs {
+  background-color: antiquewhite;
+  height: 100%;
+  padding: 30px;
+}
+.chefImgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.chefImgs {
+  width: 5%;
+  height: 5%;
+  margin: 15px;
+}
+.title {
+  color: red;
+}
+.ourStory img {
+  float: right;
+  margin: 10px;
+}
+
+/* Nav bar styling end */
