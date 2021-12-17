@@ -10,20 +10,21 @@ h3{
     color:black;
     
 }
-.ourChefs {
-background-color: antiquewhite;
-margin: 35px;
-height: 100%;
-padding: 30px;
-}
 .ourStory{
     color: rgb(84, 84, 84);
+    text-align: center;
     margin: 65px;
+    line-height: 1.6;
+}
+.ourChefs {
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 30px;
 }
 .chefImgContainer{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .chefImgs{
     width: 5%;
@@ -33,7 +34,15 @@ flex-wrap: wrap;
 .title {
     color: red;
 }
-    .navBar {
+.ourStory img {
+    float: right;
+    margin: 10px;
+}
+ 
+/* Nav bar styling end */
+
+/* Nav Bar and background */
+.navBar {
     background-image: url('/images/slider-image3.jpg');
     display: flex;
     flex-direction: row;
@@ -56,5 +65,4 @@ a:hover
     transition: all 300ms ease-in;
     color: red;
 }
- /* Nav bar styling */
- 
+/* Nav Bar and background end */
