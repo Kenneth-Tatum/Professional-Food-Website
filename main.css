@@ -1,10 +1,18 @@
+body {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+}
 /* Nav Bar and background */
+.title {
+  color: red;
+}
 .navBar {
   background-image: url("/images/slider-image3.jpg");
-  
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   justify-content: space-around;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -20,58 +28,57 @@
     padding: 10px;
     margin: 0;
     height: 10px;
-
 }
-a {
+.navBar a {
   text-decoration: none;
   color: white;
 }
-a:hover {
+.navBar a:hover {
   transition: all 300ms ease-in;
   color: red;
 }
 /* Nav Bar and background end */
 
-/* Nav bar styling */
-body {
-  font-family: Montserrat, sans-serif;
+/* Our Story Start */
+
+.ourStory h3 {
   text-align: center;
-  margin: 0 auto;
-  background-color: rgb(233, 233, 233);
-}
-h3 {
-  color: black;
 }
 .ourStory {
-  color: rgb(84, 84, 84);
+  color: black;
   text-align: left;
-  margin: 65px;
+  margin: 70px 27%;
   line-height: 1.6;
 }
-.ourStory h3 {
-    text-align: center;
-}
-.ourChefs {
-  background-color: antiquewhite;
-  height: 100%;
-  padding: 30px;
-}
-.chefImgContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.chefImgs {
-  width: 5%;
-  height: 5%;
-  margin: 15px;
-}
-.title {
-  color: red;
-}
+
 .ourStory img {
   float: right;
-  margin: 10px;
+  margin-left: 10px;
 }
+.ourStory:nth-child(2) {
+  clear: left;
+}
+/* Our Story End */
 
-/* Nav bar styling end */
+/* Our Chefs styling Start */
+h3 {
+  color: black;
+  text-align: center;
+}
+.chefImgContainer {
+display: flex;
+justify-content: space-evenly;
+width: 90% auto;
+height: 90% auto;
+margin-left: 5%;
+background-color: #D5DBDB;
+flex-grow: 1;
+flex-wrap: wrap;
+}
+.chefImgContainer > div {
+  margin: 40px 10px 20px 10px;
+  padding-top: 50px;
+}
+/* Our Chefs styling End */
+
+
