@@ -74,7 +74,15 @@ h3 {
 }
 .chefImgContainer {
   padding-bottom: 20px;
-
+  /* display: flex;
+  justify-content: center;
+  width: 100% auto;
+  height: 100% auto;
+  margin-top: 3%;
+  padding: 4%;
+  background-color: #F7F7F7;
+  flex-wrap: nowrap;
+  line-height: 0.1; */
 }
 .innerDiv{
   margin: 0 auto;
