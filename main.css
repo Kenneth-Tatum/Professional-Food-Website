@@ -108,6 +108,7 @@ font-size: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 /* Our Chefs styling End */
 
