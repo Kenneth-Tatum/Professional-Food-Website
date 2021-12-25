@@ -73,7 +73,8 @@ h3 {
   text-align: center;
 }
 .chefImgContainer {
-  display: flex;
+  padding-bottom: 20px;
+  /* display: flex;
   justify-content: center;
   width: 100% auto;
   height: 100% auto;
@@ -81,18 +82,36 @@ h3 {
   padding: 4%;
   background-color: #F7F7F7;
   flex-wrap: nowrap;
-  line-height: 0.1;
+  line-height: 0.1; */
+}
+.innerDiv{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100% auto;
+  height: 100% auto;
+  width: 80%; 
+}
+.innerDiv {
+  background: rgb(249, 249, 249);
+  width: 100%;
+}
+.chefnameDiv{
+  /* width:100% */
+  background: rgb(249, 249, 249);
+  padding: 0 0 30px 0;
+  margin-top: 7%;  
+}
+.chefNames{
+  text-align: center;
+  font-size: 2vw;
 }
 .chefImgContainer img {
-  height: 540px;
-  width: 360px;
-  padding-left: 30px;
+  margin: 0 auto;
+  width: 80%;
+  margin:0px;
 }
-.chefImgContainer h2 {
-position: relative;
-left: 29%;
-font-size: 30px;
-}
+
 .chefImgContainer h4 {
   font-size: 12px;
   color: #8B8B8B;
@@ -103,11 +122,25 @@ font-size: 30px;
 }
 /* Our Chefs styling End */
 
-/* Our Chefs styling Start */
+/* Our Menu Start */
 .ourMenuImgs {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  flex-basis: 100%;
+  width:94%;
+  
 }
-/* Our Chefs styling End */
-
+.ourMenuImgs > * {
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 100% auto;
+width: 100% auto;
+margin: 0 auto;
+}
+.infoSlider {
+  margin: 30px;
+  
+}
+/* Our Menu End */
