@@ -139,8 +139,6 @@ height: 100% auto;
 width: 100% auto;
 margin: 0 auto;
 }
-.infoSlider {
-  margin: 30px;
-  
-}
+.infoSlider {}
+margin: 30px;
 /* Our Menu End */
