@@ -22,7 +22,7 @@ body {
   height: 640px;
 }
 .title {
-  margin-right: 10%;
+  margin-right: 10% auto;
   font-size: 25px;
 }
 .reserve {
@@ -32,7 +32,7 @@ body {
     font-size: 25px;
 }
 .navBar .item:nth-child(7) {
-margin-left: 25%;
+margin-left: 25% auto;
 }
 .navBar a {
   text-decoration: none;
@@ -74,20 +74,11 @@ h3 {
 }
 .chefImgContainer {
   padding-bottom: 20px;
-  /* display: flex;
-  justify-content: center;
-  width: 100% auto;
-  height: 100% auto;
-  margin-top: 3%;
-  padding: 4%;
-  background-color: #F7F7F7;
-  flex-wrap: nowrap;
-  line-height: 0.1; */
 }
 .innerDiv{
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100% auto;
   height: 100% auto;
   width: 80%; 
@@ -129,7 +120,7 @@ h3 {
   margin: 0 auto;
   flex-basis: 100%;
   width:94%;
-  
+  position: relative;
 }
 .ourMenuImgs > * {
  display: flex;
@@ -139,6 +130,17 @@ height: 100% auto;
 width: 100% auto;
 margin: 0 auto;
 }
-.infoSlider {}
-margin: 30px;
 /* Our Menu End */
+
+/* Testimonials Slider Start */
+/* need to fix this image behind the menu but 
+I'm having trouble with positioning/z-indexing */
+.infoSlider img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+/* Testimonials Slider End */
