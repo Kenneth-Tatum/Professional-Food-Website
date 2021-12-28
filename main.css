@@ -4,6 +4,8 @@ body {
   text-align: center;
   margin: 0 auto;
   background-color: white;
+  position: relative;
+  z-index: 1;
 }
 /* Nav Bar and background */
 .dot {
@@ -120,7 +122,6 @@ h3 {
   margin: 0 auto;
   flex-basis: 100%;
   width:94%;
-  position: relative;
 }
 .ourMenuImgs > * {
  display: flex;
@@ -135,12 +136,24 @@ margin: 0 auto;
 /* Testimonials Slider Start */
 /* need to fix this image behind the menu but 
 I'm having trouble with positioning/z-indexing */
-.infoSlider img {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
+.infoContainer {
+width: 100%;
+height: 400px;
+}
+.infoContainer img {
+width: 100%;
+height: 500px;
+object-fit: cover;
+position: absolute;
+left: 0;
+z-index: -1;
+}
+.infoSlider {
+  text-align: center;
+  color: #8B8B8B;
+  font-size: 23px;
+}
+.infoSlider p {
+padding: 5%;
 }
 /* Testimonials Slider End */
