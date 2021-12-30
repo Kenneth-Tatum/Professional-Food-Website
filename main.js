@@ -19,3 +19,25 @@ btns.forEach((btn, i) => {
      currentSlide = i;
  })
 })
+
+
+///import images of chefs with there data usuing javascript
+var chefs = [
+    {
+        name: "Chef 1",
+        img: "images/chef1.jpg",
+
+    },
+    {
+        name: "Chef 2",
+        img: "images/chef2.jpg",
+
+    },
+
+    {
+        name: "Chef 3",
+        img: "images/chef3.jpg",
+
+
+    },
+]

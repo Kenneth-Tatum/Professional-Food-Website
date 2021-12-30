@@ -1,4 +1,4 @@
-body {
+/* body {
   text-align: center;
   font-family: Montserrat, sans-serif;
   text-align: center;
@@ -6,12 +6,13 @@ body {
   background-color: white;
   position: relative;
   z-index: 1;
-}
+  width:100%
+} */
 /* Nav Bar and background */
-.dot {
+/* .dot {
   color: red;
-}
-.navBar {
+} */
+/* .navBar {
   background-image: url("/images/slider-image3.jpg");
   display: flex;
   flex-direction: row;
@@ -22,8 +23,8 @@ body {
   padding: 5px;
   width: 100% auto;
   height: 640px;
-}
-.title {
+} */
+/* .title {
   margin-right: 10% auto;
   font-size: 25px;
 }
@@ -43,12 +44,12 @@ margin-left: 25% auto;
 .navBar a:hover {
   transition: all 300ms ease-in;
   color: red;
-}
+} */
 /* Nav Bar and background end */
 
 /* Our Story Start */
 
-.ourStory h3 {
+/* .ourStory h3 {
   text-align: center;
 }
 .ourStory {
@@ -66,11 +67,11 @@ color: #8B8B8B;
 }
 .ourStory:nth-child(2) {
   clear: left;
-}
+} */
 /* Our Story End */
 
 /* Our Chefs styling Start */
-h3 {
+/* h3 {
   color: black;
   text-align: center;
 }
@@ -89,9 +90,9 @@ h3 {
   background: rgb(249, 249, 249);
   width: 100%;
 }
-.chefnameDiv{
+.chefnameDiv{ */
   /* width:100% */
-  background: rgb(249, 249, 249);
+  /* background: rgb(249, 249, 249);
   padding: 0 0 30px 0;
   margin-top: 7%;  
 }
@@ -112,11 +113,11 @@ h3 {
 .chefImgContainer > div {
   padding-top: 70px;
   
-}
+} */
 /* Our Chefs styling End */
 
 /* Our Menu Start */
-.ourMenuImgs {
+/* .ourMenuImgs {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -130,13 +131,13 @@ justify-content: center;
 height: 100% auto;
 width: 100% auto;
 margin: 0 auto;
-}
+} */
 /* Our Menu End */
 
 /* Testimonials Slider Start */
 /* need to fix this image behind the menu but 
 I'm having trouble with positioning/z-indexing */
-.infoContainer {
+/* .infoContainer {
 width: 100%;
 height: 400px;
 }
@@ -155,5 +156,199 @@ z-index: -1;
 }
 .infoSlider p {
 padding: 5%;
-}
+} */
 /* Testimonials Slider End */
+
+
+@media screen and (min-width: 1240px){ 
+  body {
+    /* text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    width:20% */
+  }
+    Nav Bar and background */
+    .dot {
+    color: red;
+  } 
+   .navBar {
+    background-image: url("/images/slider-image3.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 100% auto;
+    height: 640px;
+  }  
+   
+
+  .ourStory > div > img{
+    max-width: 100%;
+    max-height: 450px;
+  }
+
+  /* .ourStory :first-child{
+  text-align: center;
+} */
+
+}
+ 
+@media screen and (min-width:768px) {
+  body {
+    /* text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    width:20% */
+  }
+    Nav Bar and background */
+    .dot {
+    color: red;
+  } 
+   .navBar {
+    background-image: url("/images/slider-image3.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 100% auto;
+    height: 640px;
+  }  
+  .ourStory{
+    display: flex;
+    flex-wrap:wrap;
+  }
+   
+ .ourStory> div{
+   max-width: 40%;
+ }
+
+  .ourStory :first-child{
+    text-align: center;
+  }
+ }
+ 
+ @media screen and (min-width:480px){
+  body {
+  /* text-align: center;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  width:20% */
+}
+  Nav Bar and background */
+  .dot {
+  color: red;
+} 
+ .navBar {
+  background-image: url("/images/slider-image3.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  width: 100% auto;
+  height: 640px;
+}  
+
+.ourStory > div > img{
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.ourStory :first-child{
+  text-align: center;
+}
+
+
+
+ }
+ 
+ @media screen and (min-width:120px) { 
+  body {
+    /* text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin: 0 ;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    min-width:90% */
+  } */
+   Nav Bar and background */
+   .dot {
+    color: red;
+  } 
+  .navBar {
+    background-image: url("/images/slider-image3.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    min-width: 32rem;
+    height: 300px;
+  }
+
+  .title {
+    margin-right: 10% auto;
+    font-size: 25px;
+  }
+  .reserve {
+      background-color: red;
+      padding: 15px;
+      height: 20px;
+      font-size: 25px;
+  }
+  .navBar .item:nth-child(7) {
+  margin-left: 25% auto;
+  }
+  .navBar a {
+    text-decoration: none;
+    color: white;
+  }
+  .navBar a:hover {
+    transition: all 300ms ease-in;
+    color: red;
+  }
+
+  .ourStory > div > img{
+    max-width: 100%;
+    max-height: 250px;
+  }
+
+  .ourStory :first-child{
+    text-align: center;
+  }
+
+
+  h1,p{
+    /* color: red; */
+    text-align: center;
+  }
+  
+
+
+
+}
+
