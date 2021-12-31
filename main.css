@@ -159,17 +159,19 @@ padding: 5%;
 /* Testimonials Slider End */
 
 @media screen and (min-width: 1240px) {
-  body {
-    /* text-align: center;
+  /* body {
+    text-align: center;
     font-family: Montserrat, sans-serif;
     text-align: center;
     margin: 0 auto;
     background-color: white;
     position: relative;
     z-index: 1;
-    width:20% */
-  }
-  Nav Bar and background */ .dot {
+    width:20%
+  } */
+  
+  /* Nav Bar and background */
+  span .dot {
     color: red;
   }
   .navBar {
