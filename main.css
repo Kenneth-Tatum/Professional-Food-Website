@@ -1,4 +1,4 @@
-/* body {
+body {
   text-align: center;
   font-family: Montserrat, sans-serif;
   text-align: center;
@@ -6,13 +6,13 @@
   background-color: white;
   position: relative;
   z-index: 1;
-  width:100%
-} */
+  width: 100%;
+}
 /* Nav Bar and background */
-/* .dot {
+.dot {
   color: red;
-} */
-/* .navBar {
+}
+.navBar {
   background-image: url("/images/slider-image3.jpg");
   display: flex;
   flex-direction: row;
@@ -23,19 +23,23 @@
   padding: 5px;
   width: 100% auto;
   height: 640px;
-} */
-/* .title {
+}
+.title {
   margin-right: 10% auto;
   font-size: 25px;
 }
 .reserve {
-    background-color: red;
-    padding: 15px;
-    height: 20px;
-    font-size: 25px;
+  background-color: red;
+  padding: 15px;
+  margin: 0 auto;
+  height: 20px;
+  font-size: 25px;
+}
+.navBar .item:nth-child(2) {
+margin-left: 10%;
 }
 .navBar .item:nth-child(7) {
-margin-left: 25% auto;
+  margin-left: 25% auto;
 }
 .navBar a {
   text-decoration: none;
@@ -44,12 +48,12 @@ margin-left: 25% auto;
 .navBar a:hover {
   transition: all 300ms ease-in;
   color: red;
-} */
+}
 /* Nav Bar and background end */
 
 /* Our Story Start */
 
-/* .ourStory h3 {
+.ourStory h3 {
   text-align: center;
 }
 .ourStory {
@@ -59,7 +63,7 @@ margin-left: 25% auto;
   line-height: 1.6;
 }
 .ourStory p {
-color: #8B8B8B;
+  color: #8b8b8b;
 }
 .ourStory img {
   float: right;
@@ -67,273 +71,269 @@ color: #8B8B8B;
 }
 .ourStory:nth-child(2) {
   clear: left;
-} */
+}
 /* Our Story End */
 
 /* Our Chefs styling Start */
-/* h3 {
+h3 {
   color: black;
   text-align: center;
 }
 .chefImgContainer {
   padding-bottom: 20px;
 }
-.innerDiv{
+.innerDiv {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   width: 100% auto;
   height: 100% auto;
-  width: 80%; 
+  width: 80%;
 }
 .innerDiv {
   background: rgb(249, 249, 249);
   width: 100%;
 }
-.chefnameDiv{ */
-/* width:100% */
-/* background: rgb(249, 249, 249);
+.chefnameDiv {
+  background: rgb(249, 249, 249);
   padding: 0 0 30px 0;
-  margin-top: 7%;  
+  margin-top: 7%;
 }
-.chefNames{
+.chefNames {
   text-align: center;
   font-size: 2vw;
 }
 .chefImgContainer img {
   margin: 0 auto;
   width: 80%;
-  margin:0px;
+  margin: 0px;
 }
 .chefImgContainer h4 {
   font-size: 12px;
-  color: #8B8B8B;
+  color: #8b8b8b;
 }
 .chefImgContainer > div {
   padding-top: 70px;
+}
+*/
+  /* Our Chefs styling End */
   
-} */
-/* Our Chefs styling End */
-
-/* Our Menu Start */
-/* .ourMenuImgs {
+  /* Our Menu Start */
+  .ourMenuImgs {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   flex-basis: 100%;
-  width:94%;
+  width: 94%;
 }
 .ourMenuImgs > * {
- display: flex;
-flex-wrap: wrap;
-justify-content: center;
-height: 100% auto;
-width: 100% auto;
-margin: 0 auto;
-} */
-/* Our Menu End */
-
-/* Testimonials Slider Start */
-/* need to fix this image behind the menu but 
-I'm having trouble with positioning/z-indexing */
-/* .infoContainer {
-width: 100%;
-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100% auto;
+  width: 100% auto;
+  margin: 0 auto;
+}
+*/
+  /* Our Menu End */
+  
+  .infoContainer {
+  width: 100%;
+  height: 400px;
 }
 .infoContainer img {
-width: 100%;
-height: 500px;
-object-fit: cover;
-position: absolute;
-left: 0;
-z-index: -1;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 .infoSlider {
   text-align: center;
-  color: #8B8B8B;
+  color: #8b8b8b;
   font-size: 23px;
 }
 .infoSlider p {
-padding: 5%;
-} */
+  padding: 5%;
+}
 /* Testimonials Slider End */
 
 @media screen and (min-width: 1240px) {
- * {
-  scroll-behavior: smooth;
- }
+  * {
+    scroll-behavior: smooth;
+  }
   body {
-  font-family: Montserrat, sans-serif;
-  text-align: center;
-  margin: 0 auto;
-  background-color: white;
-  width:100%
-}
-/* Nav Bar and background */
- .dot {
-  color: red;
-} 
- .navBar {
-  background-image: url("/images/slider-image3.jpg");
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  color: white;
-  padding: 5px;
-  width: 100% auto;
-  height: 640px;
-} 
- .title {
-  margin-right: 10% auto;
-  font-size: 25px;
-}
-.reserve {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+  }
+  /* Nav Bar and background */
+  .dot {
+    color: red;
+  }
+  .navBar {
+    background-image: url("/images/slider-image3.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 100% auto;
+    height: 640px;
+  }
+  .title {
+    margin-right: 10% auto;
+    font-size: 25px;
+  }
+  .reserve {
     background-color: red;
     padding: 15px;
     height: 20px;
+    margin: 0 auto;
     font-size: 25px;
-}
-.navBar .item:nth-child(7) {
-margin-left: 25% auto;
-}
-.navBar a {
-  text-decoration: none;
-  color: white;
-}
-.navBar a:hover {
-  transition: all 300ms ease-in;
-  color: red;
-} 
-/* Nav Bar and background end */
+  }
+  .navBar .item:nth-child(7) {
+    margin-left: 25% auto;
+  }
+  .navBar a {
+    text-decoration: none;
+    color: white;
+  }
+  .navBar a:hover {
+    transition: all 300ms ease-in;
+    color: red;
+  }
+  /* Nav Bar and background end */
 
-/* Our Story Start */
+  /* Our Story Start */
 
- .ourStory h3 {
-  text-align: center;
-}
-.ourStory {
-  color: black;
-  text-align: left;
-  margin: 70px 27% auto;
-  line-height: 1.6;
-}
-.ourStory p {
-color: #8B8B8B;
-}
-.ourStory img {
-  float: right;
-  margin-left: 10px auto;
-}
-.ourStory:nth-child(2) {
-  clear: left;
-} 
-/* Our Story End */
+  .ourStory h3 {
+    text-align: center;
+  }
+  .ourStory {
+    color: black;
+    text-align: left;
+    margin: 70px 27% auto;
+    line-height: 1.6;
+  }
+  .ourStory p {
+    color: #8b8b8b;
+  }
+  .ourStory img {
+    float: right;
+    margin-left: 10px auto;
+  }
+  .ourStory:nth-child(2) {
+    clear: left;
+  }
+  /* Our Story End */
 
-/* Our Chefs styling Start */
- h3 {
-  color: black;
-  text-align: center;
-}
-.chefImgContainer {
-  padding-bottom: 20px;
-}
-.innerDiv{
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100% auto;
-  height: 100% auto;
-  width: 80%; 
-}
-.innerDiv {
-  background: rgb(249, 249, 249);
-  width: 100%;
-}
-.chefnameDiv{ 
-  background: rgb(249, 249, 249);
-  padding: 0 0 30px 0;
-  margin-top: 7%;  
-}
-.chefNames{
-  text-align: center;
-  font-size: 2vw;
-}
-.chefImgContainer img {
-  margin: 0 auto;
-  width: 80%;
-  margin:0px;
-}
-.chefImgContainer h4 {
-  font-size: 12px;
-  color: #8B8B8B;
-}
-.chefImgContainer > div {
-  padding-top: 70px;
-  
-} 
-/* Our Chefs styling End */
+  /* Our Chefs styling Start */
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  .chefImgContainer {
+    padding-bottom: 20px;
+  }
+  .innerDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% auto;
+    height: 100% auto;
+    width: 80%;
+  }
+  .innerDiv {
+    background: rgb(249, 249, 249);
+    width: 100%;
+  }
+  .chefnameDiv {
+    background: rgb(249, 249, 249);
+    padding: 0 0 30px 0;
+    margin-top: 7%;
+  }
+  .chefNames {
+    text-align: center;
+    font-size: 2vw;
+  }
+  .chefImgContainer img {
+    margin: 0 auto;
+    width: 80%;
+    margin: 0px;
+  }
+  .chefImgContainer h4 {
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  .chefImgContainer > div {
+    padding-top: 70px;
+  }
+  /* Our Chefs styling End */
 
-/* Our Menu Start */
- .ourMenuImgs {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  flex-basis: 100%;
-  width:94%;
-}
-.ourMenuImgs > * {
- display: flex;
-flex-wrap: wrap;
-justify-content: center;
-height: 100% auto;
-width: 100% auto;
-margin: 0 auto;
-} 
+  /* Our Menu Start */
+  .ourMenuImgs {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-basis: 100%;
+    width: 94%;
+  }
+  .ourMenuImgs > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100% auto;
+    width: 100% auto;
+    margin: 0 auto;
+  }
 
-/* Our Menu End */
+  /* Our Menu End */
 
-/* Testimonials Slider Start */
- 
-.infoContainer {
-width: 100%;
-height: 400px;
-}
-.infoContainer img {
-width: 100%;
-height: 500px;
-object-fit: cover;
-position: absolute;
-left: 0;
-z-index: -1;
-}
-.infoSlider {
-  text-align: center;
-  color: #8B8B8B;
-  font-size: 23px;
-}
-.infoSlider p {
-padding: 5%;
-} 
-/* Testimonials Slider End */
+  /* Testimonials Slider Start */
+
+  .infoContainer {
+    width: 100%;
+    height: 400px;
+  }
+  .infoContainer img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+  .infoSlider {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 23px;
+  }
+  .infoSlider p {
+    padding: 5%;
+  }
+  /* Testimonials Slider End */
 }
 
 @media screen and (min-width: 768px) {
   * {
     scroll-behavior: smooth;
-   }
+  }
   body {
     font-family: Montserrat, sans-serif;
     text-align: center;
-    margin: 0 ;
+    margin: 0;
     background-color: white;
-    min-width:90%
+    min-width: 90%;
   }
-   img {
+  img {
     width: 55%;
   }
-   /* Nav Bar and background */
+  /* Nav Bar and background */
   span .dot {
     color: red;
   }
@@ -389,47 +389,47 @@ padding: 5%;
   .infoContainer {
     width: 100%;
     height: 400px;
-    }
-    .infoContainer img {
+  }
+  .infoContainer img {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    }
-    .infoSlider {
-      text-align: center;
-      color: #8B8B8B;
-      font-size: 23px;
-    }
-    .infoSlider p {
+  }
+  .infoSlider {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 23px;
+  }
+  .infoSlider p {
     margin-top: 0px;
-    }
+  }
 }
 
 @media screen and (min-width: 480px) {
   * {
     scroll-behavior: smooth;
-   }
+  }
   body {
-    text-align: center;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    margin: 0 ;
+    margin: 0;
     background-color: white;
     position: relative;
     z-index: 1;
-    min-width:90%
+    min-width: 90%;
   }
-   img {
+  img {
     width: 55%;
   }
-  */ Nav Bar and background */ .dot {
+  /* Nav Bar and background  */
+  .dot {
     color: red;
   }
   .navBar {
     /* I need to get this nav bar to shrink with page  */
     background-image: url("/images/slider-image3.jpg");
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -479,40 +479,36 @@ padding: 5%;
   .infoContainer {
     width: 100%;
     height: 400px;
-    }
-    .infoContainer img {
+  }
+  .infoContainer img {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    }
-    .infoSlider {
-      text-align: center;
-      color: #8B8B8B;
-      font-size: 23px;
-    }
-    .infoSlider p {
+  }
+  .infoSlider {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 23px;
+  }
+  .infoSlider p {
     margin-top: 0px;
-    }
+  }
 }
 
 @media screen and (min-width: 120px) {
   * {
     scroll-behavior: smooth;
-   }
+  }
   body {
     text-align: center;
     font-family: Montserrat, sans-serif;
-    text-align: center;
-    margin: 0 ;
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    min-width:90%
+    margin: 0;
+    min-width: 90%;
   }
-   img {
-    width: 55%;
+  img {
+    width: 60%;
   }
-   /* Nav Bar and background  */
+  /* Nav Bar and background  */
   .dot {
     color: red;
   }
@@ -520,9 +516,9 @@ padding: 5%;
     background-image: url("/images/slider-image3.jpg");
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     color: white;
@@ -532,8 +528,7 @@ padding: 5%;
     margin: 0 auto;
   }
   .navBar > div .item {
-   padding: 0 75px 0 35px auto;
-
+    padding: 0 75px 0 35px auto;
   }
 
   .title {
@@ -560,60 +555,64 @@ padding: 5%;
   }
 
   .ourStory > div > img {
+    width: 100% auto;
     max-width: 100%;
     max-height: 250px;
+  }
+  .ourStory > div {
+    text-align: center;
   }
 
   .ourStory :first-child {
     text-align: center;
   }
 
-/* Our Chefs styling Start */
+  /* Our Chefs styling Start */
 
-h3 {
-  color: black;
-  text-align: center;
-}
-.chefImgContainer {
-  padding-bottom: 20px;
-}
-.innerDiv{
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 100% auto;
-  height: 100% auto;
-  width: 80%; 
-}
-.innerDiv {
-  background: rgb(249, 249, 249);
-  width: 100%;
-}
-.chefnameDiv{ 
-  width:100%; 
-  background: rgb(249, 249, 249);
-  padding: 0 0 30px 0;
-  margin-top: 7%;
-}
-.chefNames{
-  text-align: center;
-  font-size: 14px;
-}
-.chefImgContainer img {
-  margin: 0 auto;
-  width: 80%;
-  margin:0px;
-}
-.chefImgContainer h4 {
-  font-size: 12px;
-  color: #8B8B8B;
-}
-.chefImgContainer > div {
-  padding-top: 70px;
-}
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  .chefImgContainer {
+    padding-bottom: 20px;
+  }
+  .innerDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100% auto;
+    height: 100% auto;
+    width: 80%;
+  }
+  .innerDiv {
+    background: rgb(249, 249, 249);
+    width: 100%;
+  }
+  .chefnameDiv {
+    width: 100%;
+    background: rgb(249, 249, 249);
+    padding: 0 0 30px 0;
+    margin-top: 7%;
+  }
+  .chefNames {
+    text-align: center;
+    font-size: 14px;
+  }
+  .chefImgContainer img {
+    margin: 0 auto;
+    width: 80%;
+    margin: 0px;
+  }
+  .chefImgContainer h4 {
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  .chefImgContainer > div {
+    padding-top: 70px;
+  }
 
-/* Our Chefs styling End */
+  /* Our Chefs styling End */
 
   /* Testimonial Start */
   h1,
@@ -624,21 +623,29 @@ h3 {
   .infoContainer {
     width: 100%;
     height: 400px;
-    }
-    .infoContainer img {
+  }
+  .infoContainer img {
     width: 100%;
     height: 500px;
     object-fit: cover;
     position: absolute;
     left: 0;
     z-index: -1;
-    }
-    .infoSlider {
-      text-align: center;
-      color: #8B8B8B;
-      font-size: 23px;
-    }
-    .infoSlider p {
+  }
+  .infoSlider {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 23px;
+  }
+  .infoSlider p {
     padding: 5%;
-    }
+  }
+  .contactContainer{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+  }
+  .contactForm {
+    padding-top: 50px;
+  }
 }
