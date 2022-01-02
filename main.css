@@ -555,10 +555,10 @@ h3 {
   background:none;
   position:absolute;
   top:0;
-  right:0;
+  right:20px;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#999;
+  color:black;
   border:0;
   font-size:2.6em;
   font-weight:bold;
