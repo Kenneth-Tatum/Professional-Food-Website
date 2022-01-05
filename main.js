@@ -1,43 +1,12 @@
-var slides = document.querySelectorAll('.slide')
-var btns = document.querySelectorAll('.btn')
-let currentSlide = 1;
+var hamburger = document.querySelector(".hamburger")
+var navMenu = document.querySelector(".nav-menu")
 
-//    Javascript for image slider manual navigation
-var manualNav = function (manual) {
- slides.forEach((slide) => {
-     slide.classList.remove('active');
- });
- btns.forEach((btn) => {
-     btn.classList.remove('active');
- });
- slides[manual].classList.add('active')
- btns[manual].classList.add('active')
-}
-btns.forEach((btn, i) => {
- btn.addEventListener("click", () => {
-     manualNav(i);
-     currentSlide = i;
- })
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active")
+    navMenu.classList.toggle("active")
 })
 
-
-///import images of chefs with there data usuing javascript
-var chefs = [
-    {
-        name: "Chef 1",
-        img: "images/chef1.jpg",
-
-    },
-    {
-        name: "Chef 2",
-        img: "images/chef2.jpg",
-
-    },
-
-    {
-        name: "Chef 3",
-        img: "images/chef3.jpg",
-
-
-    },
-]
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", ()=> {
+    hamburger.classList.remove("active")
+    navMenu.classList.remove("active")
+}))
