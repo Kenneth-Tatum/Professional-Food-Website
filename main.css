@@ -1,30 +1,36 @@
 * {
   scroll-behavior: smooth;
-} 
- body {
+}
+body {
   text-align: center;
   font-family: Montserrat, sans-serif;
   margin: 0;
   min-width: 90%;
 }
-img {
-  width: 60%;
-} 
-
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+* {
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  min-width: 90%;
+}
 /* New and improved hamburger menu start */
-  /* New and improved hamburger menu start */
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+/* New and improved hamburger menu start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 header {
-background-color: #161515;
-position: sticky;
-top: 0;
+  background-color: #161515;
+  position: sticky;
+  top: 0;
 }
 li {
-list-style: none;
+  list-style: none;
 }
 a {
   color: white;
@@ -46,120 +52,76 @@ a {
 .nav-branding {
   font-size: 2rem;
 }
-.nav-link{
+.nav-link {
   transition: 0.7s ease;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: red;
-} 
-@media all and (min-width: 480px) and (max-width: 768px) {
-   * {
-    scroll-behavior: smooth;
-  } 
-   body {
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    margin: 0;
-    min-width: 90%;
-  }
-  img {
-    width: 60%;
-  } 
-
-  /* New and improved hamburger menu start */
-  /* Next make navBar sticky */
-    /* New and improved hamburger menu start */
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
-header {
-  background-color: #161515;
-  position: sticky;
-  top: 0;
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
-li {
-  list-style: none;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-.navbar {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px 0 24px;
-}
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
-.nav-branding {
-    font-size: 2rem;
-}
-.nav-link{
-    transition: 0.7s ease;
-}
-.nav-link:hover{
-    color: red;
-}
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   .hamburger {
-      display: block;
+    display: block;
   }
-      .hamburger.active .bar:nth-child(2){
-          opacity: 0;
-      }
-      .hamburger.active .bar:nth-child(1){
-          transform: translateY(8px) rotate(45deg);
-      }
-      .hamburger.active .bar:nth-child(3){
-          transform: translateY(-8px) rotate(-45deg);
-      }
-      .nav-menu {
-          position: fixed;
-          top: 100px;
-          top: -100%;
-          left: 0;
-          gap: 0;
-          flex-direction: column;
-          background-color: #161515;
-          width: 100%;
-          text-align: center;
-          transition: 0.3s;
-      }
-      .nav-item {
-          margin: 16px 0;
-      }
-      .nav-menu.active{
-          top: 70px;
-      }
-}
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    top: 100px;
+    top: -100%;
+    left: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: #161515;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    top: 70px;
+  }
+
   /* New and improved hamburger menu end */
   /* New and improved hamburger menu end */
+  .story p {
+    text-align: left;
+    color: #8b8b8b;
+    margin: 25px 15%;
+    max-width: 525px;
+  }
+  .story h1 {
+    text-align: center;
+    clear: both;
+  }
   .ourStory > div > img {
     width: 100% auto;
     max-width: 100%;
     max-height: 250px;
+    margin: auto;
+    /* float: right; */
   }
   .ourStory > div {
     text-align: center;
@@ -216,10 +178,29 @@ a {
 
   /* Our Chefs styling End */
 
+  /* Our Menu Start */
+/* .ourMenuImgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.ourMenuImgs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    text-align: center;
+    border: solid 3px black;
+    margin: 5px;
+    height: 1000px;
+}
+.menuImgs > div > img {
+    margin: 0 auto;
+} */
+    /* Our Menu End */
+
   /* Testimonial Start */
-  h1,
-  p {
-    /* color: red; */
+  /* h1 ,p {
     text-align: center;
   }
   .infoContainer {
@@ -249,5 +230,236 @@ a {
   }
   .contactForm {
     padding-top: 50px;
-  }
+  } */
 }
+
+/* @media all and (min-width: 480px) and (max-width: 768px) { */
+  * {
+    scroll-behavior: smooth;
+  }
+  body {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    min-width: 90%;
+  }
+  img {
+    width: 60%;
+  }
+
+  /* New and improved hamburger menu start */
+  /* New and improved hamburger menu start */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #161515;
+    position: sticky;
+    top: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 24px;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  .nav-branding {
+    font-size: 2rem;
+  }
+  .nav-link {
+    transition: 0.7s ease;
+  }
+  .nav-link:hover {
+    color: red;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+      position: fixed;
+      top: 100px;
+      top: -100%;
+      left: 0;
+      gap: 0;
+      flex-direction: column;
+      background-color: #161515;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .nav-item {
+      margin: 16px 0;
+    }
+    .nav-menu.active {
+      top: 70px;
+    }
+  }
+  /* New and improved hamburger menu end */
+  /* New and improved hamburger menu end */
+  .story p {
+    margin: 3% 20%;
+    text-align: left;
+    color: #8b8b8b;
+  }
+  .ourStory > div > img {
+    width: 100% auto;
+    max-width: 100%;
+    max-height: 250px;
+    margin: auto;
+    object-fit: cover;
+  }
+  .ourStory > div {
+    text-align: center;
+  }
+
+  .ourStory :first-child {
+    text-align: center;
+  }
+
+  /* Our Chefs styling Start */
+
+  h3 {
+    color: black;
+    text-align: center;
+  }
+  .chefImgContainer {
+    padding-bottom: 20px;
+  }
+  .innerDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100% auto;
+    height: 100% auto;
+    width: 80%;
+  }
+  .innerDiv {
+    background: rgb(249, 249, 249);
+    width: 100%;
+  }
+  .chefnameDiv {
+    width: 100%;
+    background: rgb(249, 249, 249);
+    padding: 0 0 30px 0;
+    margin-top: 7%;
+  }
+  .chefNames {
+    text-align: center;
+    font-size: 14px;
+  }
+  .chefImgContainer img {
+    margin: 0 auto;
+    width: 80%;
+    margin: 0px;
+  }
+  .chefImgContainer h4 {
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  .chefImgContainer > div {
+    padding-top: 70px;
+  }
+  /* Our Chefs styling End */
+   
+  /* Our Menu Start */
+  .ourMenuImgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: solid red;
+    
+}
+.menuImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    margin: auto 250px;
+    height: 10%;
+    border: solid;
+    width: 10%;
+}
+.menuImgs > div > img {
+    margin: 0 auto;
+} 
+   /* Our Menu End*/
+
+
+
+  /* Testimonial Start */
+  /* h1,
+  p {
+    text-align: center;
+  }
+  .infoContainer {
+    width: 100%;
+    height: 400px;
+  }
+  .infoContainer img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+  .infoSlider {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 23px;
+  }
+  .infoSlider p {
+    padding: 5%;
+  }
+  .contactContainer {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+  }
+  .contactForm {
+    padding-top: 50px;
+  } */
+/* } */
