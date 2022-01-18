@@ -243,9 +243,9 @@ a {
     margin: 0;
     min-width: 90%;
   }
-  img {
-    width: 60%;
-  }
+  /* img {
+    width: 100%;
+  } */
 
   /* New and improved hamburger menu start */
   /* New and improved hamburger menu start */
@@ -411,18 +411,18 @@ a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border: solid red;
+    /* border: solid red; */
     
 }
 .menuImgs {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-grow: 1;
     text-align: center;
-    margin: 50px 300px;
+    margin: 50px ;
     height: 10%;
-    border: solid;
+    /* border: solid; */
     width: 10%;
     min-width: 100%;
 }
