@@ -409,15 +409,17 @@ a {
     margin-bottom: 20px;
   }
 .ourMenuImgs {
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
-    /* border: solid red; */
+    border: solid rgb(38, 134, 67);
+    height: 350px;
     
 }
 .menuImgs {
+    margin:0 auto;
     display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
+    padding:10px;
     justify-content: center;
     flex-grow: 1;
     text-align: center;
@@ -426,8 +428,9 @@ a {
     width: 10%;
     min-width: 100%;
 }
-.menuImgs > div > img {
-    margin: 0 auto;
+.menuImgs > img {
+    margin: 0;
+    max-width: 250px;
 } 
 
 /* Price shading effects start */
