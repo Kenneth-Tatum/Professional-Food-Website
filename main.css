@@ -281,6 +281,7 @@ a {
   }
   .nav-branding {
     font-size: 2rem;
+    margin-right: 40px;
   }
   .nav-link {
     transition: 0.7s ease;
@@ -422,19 +423,46 @@ a {
     text-align: center;
     margin: 50px ;
     height: 10%;
-    /* border: solid; */
     width: 10%;
     min-width: 100%;
 }
 .menuImgs > div > img {
     margin: 0 auto;
 } 
-   /* Our Menu End*/
+
+/* Price shading effects start */
+.menuImgs > div{
+  position: relative;
+  /* border: 4px solid green; */
+}
+.price {
+  /* border: solid 10px red; */
+  background-color: black;
+  height: 105px;
+  width: 100%;
+  padding-bottom: 0px;
+  bottom: 0px;
+  opacity: 0%;
+  position: absolute;
+  transition: all 750ms ease-in-out;
+}
+.price:hover {
+  padding-bottom: 0;
+  opacity: 45%;
+}
+
+#menuImg{
+  min-width:50%;
+  min-height: 50%;
+}
+/* Price shading effects end */
+
+/* Our Menu End*/
 
 
 
-  /* Testimonial Start */
-  /* h1,
+/* Testimonial Start */
+h1,
   p {
     text-align: center;
   }
@@ -465,5 +493,5 @@ a {
   }
   .contactForm {
     padding-top: 50px;
-  } */
-/* } */
+  }
+
