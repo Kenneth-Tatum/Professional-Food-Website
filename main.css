@@ -387,7 +387,7 @@ a {
   }
   .chefNames {
     text-align: center;
-    font-size: 14px;
+    font-size: 24px;
   }
   .chefImgContainer img {
     margin: 0 auto;
@@ -410,7 +410,7 @@ a {
   }
 .ourMenuImgs {
     margin: 0 auto;
-    border: solid rgb(38, 134, 67);
+    /* border: solid rgb(38, 134, 67); */
     height: 350px;
     
 }
